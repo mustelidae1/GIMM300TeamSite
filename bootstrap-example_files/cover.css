@@ -117,12 +117,11 @@ body {
 
 .card {
  overflow-y: scroll;
- max-width: 700px;
- max-height: 500px;
+ max-width: 500px;
+ max-height: 600px;
  padding: 17px;
 
 }
-
 .card-body {
     height:auto;
 }
