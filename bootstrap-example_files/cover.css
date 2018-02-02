@@ -116,14 +116,19 @@ body {
 }
 
 .card {
+ overflow-y: scroll;
  max-width: 700px;
  max-height: 500px;
+ padding: 17px;
+
 }
 
 .card-body {
-
     height:auto;
-    overflow-y: scroll;
+}
+
+.card-title {
+
 }
 
 .card-text {
@@ -131,4 +136,14 @@ body {
     font-size:0.9rem;
     text-align: left;
 
+}
+
+::-webkit-scrollbar {
+    background: transparent;
+    width: 0px;
+}
+
+ul li {
+    text-align: left;
+    font-size: 1.2rem;
 }
