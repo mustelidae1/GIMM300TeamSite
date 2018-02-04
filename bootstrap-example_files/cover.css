@@ -51,6 +51,7 @@ body {
  */
 .masthead {
   margin-bottom: 2rem;
+  box-shadow: 10px 25px 30px rgba(0,0,0,.3);
 }
 
 .masthead-brand {
@@ -81,13 +82,13 @@ body {
 
 @media (min-width: 48em) {
   .masthead-brand {
-    float: left;
+    float: center;
+    padding-bottom: 7px;
   }
   .nav-masthead {
-    float: right;
+    float: center;
   }
 }
-
 
 /*
  * Cover
@@ -100,7 +101,6 @@ body {
   font-weight: 700;
 }
 
-
 /*
  * Footer
  */
@@ -110,20 +110,27 @@ body {
 /* Begin Custom CSS */
 
 .card-image-top{
+  padding-top: auto;
     width: 100%;
     height: 100%;
-    filter: grayscale(100%);
 }
 
 .card {
- overflow-y: scroll;
- max-width: 500px;
+ overflow: hidden;
+ max-width: 600px;
  max-height: 600px;
- padding: 17px;
-
+ padding: 10px;
+ box-shadow: 10px 25px 30px rgba(0,0,0,.3);
+ -webkit-transition: height .5s ease-in-out;
 }
+.card:hover{
+  overflow:visible;
+  transition: overflow 0.5s;
+  height: auto;
+}
+
 .card-body {
-    height:auto;
+    height:50px;
 }
 
 .card-title {
@@ -131,10 +138,26 @@ body {
 }
 
 .card-text {
-    width: auto;
+    padding: 30px 0 0 0;
+    width: 100%;
     font-size:0.9rem;
     text-align: left;
 
+}
+
+.container {
+    position: relative;
+    filter: grayscale(100%);
+    transition: filter 0.5s;
+    -webkit-transition: All .5s ease-in-out;
+}
+
+.container:hover {
+  position: relative;
+    filter: grayscale(0%);
+    width: 99%;
+    hight: 101%;
+    padding: 0;
 }
 
 ::-webkit-scrollbar {
@@ -146,12 +169,8 @@ ul li {
     text-align: left;
     font-size: 1.2rem;
 }
-.about-card-image-top{
-    max-width: 600px;
-    max-height: 600px;
-    height: auto;
-    width: auto;
-}
+
+<!-- AboutPage classes -->
 .about-card{
   overflow: hidden;
   max-width: 600px;
@@ -162,4 +181,11 @@ ul li {
     font-size:0.9rem;
     word-wrap: break-word;
     text-align: justify;
+}
+.about-card-image-top{
+    padding: auto;
+    max-width: 600px;
+    max-height: 600px;
+    height: auto;
+    width: auto;
 }
