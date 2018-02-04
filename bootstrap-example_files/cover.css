@@ -146,3 +146,20 @@ ul li {
     text-align: left;
     font-size: 1.2rem;
 }
+.about-card-image-top{
+    max-width: 600px;
+    max-height: 600px;
+    height: auto;
+    width: auto;
+}
+.about-card{
+  overflow: hidden;
+  max-width: 600px;
+  height:auto;
+}
+.about-card-text {
+    width: auto;
+    font-size:0.9rem;
+    word-wrap: break-word;
+    text-align: justify;
+}
