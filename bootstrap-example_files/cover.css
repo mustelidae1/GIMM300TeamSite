@@ -50,10 +50,10 @@ body {
  * Header
  */
 .masthead {
-  margin-left: 150px;
-  margin-right: 150px;
-  margin-bottom: 3rem;
-  box-shadow: 10px 25px 30px rgba(0,0,0,.3);
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-bottom: 2rem;
+	box-shadow: 10px 25px 30px rgba(0,0,0,.3);
 }
 
 .masthead-brand {
@@ -171,7 +171,7 @@ ul li {
     font-size: 1.2rem;
 }
 
-<!-- AboutPage classes -->
+ AboutPage classes 
 .about-card{
   overflow: hidden;
   max-width: 600px;
@@ -184,11 +184,14 @@ ul li {
     text-align: justify;
 }
 .about-card-image-top{
-    padding: auto;
-    max-width: 600px;
-    max-height: 600px;
-    height: auto;
-    width: auto;
-    box-shadow: 10px 25px 30px rgba(0,0,0,.3);
+	padding-top: 20px;
+	padding-right: auto;
+	padding-left: auto;
+	padding-bottom: 0px;
+	max-width: 600px;
+	max-height: 600px;
+	height: auto;
+	width: auto;
+	box-shadow: 10px 25px 30px rgba(0,0,0,.3);
 
 }
