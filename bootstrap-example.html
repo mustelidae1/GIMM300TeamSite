@@ -6,6 +6,38 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <meta name="description" content="">
       <meta name="author" content="">
+      <style> 
+        .container {
+            position: relative; 
+            width: 50%; 
+        }
+        .overlay {
+            position: absolute; 
+            top: 0; 
+            bottom: 0; 
+            left: 0; 
+            right: 0; 
+            height: 100%; 
+            width: 100%; 
+            border-radius: 10px; 
+            opacity: 0; 
+            transition: .5s ease; 
+            background-color: #008CBA
+        }
+        .container:hover .overlay {
+            opacity: 1; 
+        }
+         .text {
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
+      </style> 
       <link rel="icon" href="images/donut3.j">
       <title>Interdemensionals Landing Page</title>
       <!-- Bootstrap core CSS -->
@@ -26,11 +58,16 @@
             </nav>
          </div>
       </header>
-      <main role="main" class="container">
+      <main role="main">
          <!-- Kyle's code Start -->
          <div class="card-deck">
              <div class="card bg-dark">
+                <div class="container"> 
                 <img class="card-img-top rounded" src="images/bio-pic.jpg" alt="bio-pic">
+                <div class="overlay">
+                    <div class="text">Kyle J. Rennie</div>
+                </div>
+                </div>
                 <div class="card-body">
                    <h4 class="card-title" style="text-align: center;">Kyle J. Rennie</h4>
                    <div class="card-text">
@@ -61,7 +98,13 @@
              </div>
 
              <div class="card bg-dark">
-                <img class="card-img-top rounded" src="images/olivia-pic.jpg" alt="bio-pic">
+                 <div class="container">
+                    <img class="card-img-top rounded" src="images/olivia-pic.jpg" alt="bio-pic">
+                    <div class="overlay">
+                            <div class="text">Olivia Thomas</div>
+                    </div>
+                 </div>
+                
                 <div class="card-body">
                    <h4 class="card-title" style="text-align: center;">Olivia Thomas</h4>
                    <div class="card-text">
@@ -92,7 +135,12 @@
             </div>
 
             <div class="card bg-dark">
-               <img class="card-img-top rounded" src="images/bio-pic.jpg" alt="bio-pic">
+                <div class="container">
+                        <img class="card-img-top rounded" src="images/bio-pic.jpg" alt="bio-pic">
+                        <div class="overlay">
+                                <div class="text">Chris Ross</div>
+                        </div>
+                </div>
                <div class="card-body">
                   <h4 class="card-title" style="text-align: center;">Kyle J. Rennie</h4>
                   <div class="card-text">
