@@ -189,4 +189,6 @@ ul li {
     max-height: 600px;
     height: auto;
     width: auto;
+    box-shadow: 10px 25px 30px rgba(0,0,0,.3);
+
 }
