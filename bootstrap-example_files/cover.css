@@ -50,7 +50,9 @@ body {
  * Header
  */
 .masthead {
-  margin-bottom: 2rem;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 3rem;
   box-shadow: 10px 25px 30px rgba(0,0,0,.3);
 }
 
@@ -87,6 +89,7 @@ body {
   }
   .nav-masthead {
     float: center;
+    padding-bottom: 7px;
   }
 }
 
@@ -116,21 +119,20 @@ body {
 }
 
 .card {
- overflow: hidden;
+ overflow:hidden;
  max-width: 600px;
- max-height: 600px;
+ height: 300px;
+ min-height: 50px;
  padding: 10px;
  box-shadow: 10px 25px 30px rgba(0,0,0,.3);
- -webkit-transition: height .5s ease-in-out;
 }
 .card:hover{
-  overflow:visible;
-  transition: overflow 0.5s;
   height: auto;
+  overflow:visible;
 }
 
 .card-body {
-    height:50px;
+
 }
 
 .card-title {
@@ -142,7 +144,6 @@ body {
     width: 100%;
     font-size:0.9rem;
     text-align: left;
-
 }
 
 .container {
