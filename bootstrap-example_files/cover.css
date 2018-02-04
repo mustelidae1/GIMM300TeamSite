@@ -46,7 +46,6 @@ body {
   max-width: 75em;
 }
 
-
 /*
  * Header
  */
@@ -113,6 +112,7 @@ body {
 .card-image-top{
     width: 100%;
     height: 100%;
+    filter: grayscale(100%);
 }
 
 .card {

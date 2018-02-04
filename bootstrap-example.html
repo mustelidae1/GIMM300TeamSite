@@ -12,32 +12,11 @@
         .container {
             position: relative;
             width: 100%;
+            filter: grayscale(100%);
+            transition: filter 0.5s;
         }
-        .overlay {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            height: 100%;
-            width: 100%;
-            border-radius: 10px;
-            opacity: 0;
-            transition: .5s ease;
-            background-color: #008CBA            
-        }
-        .container:hover .overlay {
-            opacity: 1;
-        }
-         .text {
-            color: white;
-            font-size: 20px;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-            text-align: center;
+        .container:hover {
+            filter: grayscale(0%);
         }
       </style>
 
@@ -69,9 +48,6 @@
              <div class="card bg-dark">
                 <div class="container">
                 <img class="card-img-top rounded" src="images/bio-pic.jpg" alt="bio-pic">
-                <div class="overlay">
-                    <div class="text">Kyle J. Rennie</div>
-                </div>
                 </div>
                 <div class="card-body">
                    <h4 class="card-title" style="text-align: center;">Kyle J. Rennie</h4>
@@ -106,9 +82,6 @@
              <div class="card bg-dark">
                  <div class="container">
                     <img class="card-img-top rounded" src="images/olivia-pic.jpg" alt="bio-pic">
-                    <div class="overlay">
-                            <div class="text">Olivia Thomas</div>
-                    </div>
                  </div>
 
                 <div class="card-body">
@@ -144,9 +117,6 @@
             <div class="card bg-dark">
                 <div class="container">
                         <img class="card-img-top rounded" src="images/CMRbio-pic.jpg" alt="bio-pic">
-                        <div class="overlay">
-                                <div class="text">Chris Ross</div>
-                        </div>
                 </div>
                <div class="card-body">
                   <h4 class="card-title" style="text-align: center;">Chris  Ross</h4>
