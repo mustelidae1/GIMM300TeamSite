@@ -25,21 +25,40 @@ a:hover {
  */
 
 html,
+
 body {
-  /*height: 100%; */
+	display: -ms-flexbox;
+	display: inherit;
+	display: flex; 
+	-ms-flex-pack: 100%;
+	-webkit-box-pack: center;
+	justify-content: center;
+	color: #fff;
+	text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+/*	box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);*/
+}
+body {
+  height: 100%; 
   background-color: #333;
 }
 
-body {
-  display: -ms-flexbox;
-  display: -webkit-box;
-  display: flex;
-  -ms-flex-pack: center;
-  -webkit-box-pack: center;
-  justify-content: center;
-  color: #fff;
-  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+#background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+}
+
+.container h1 {
+    color: white;
 }
 
 .cover-container {
