@@ -1,7 +1,9 @@
 /*
  * Globals
  */
-
+ @import url('https://fonts.googleapis.com/css?family=Geostar+Fill');
+ @import url('https://fonts.googleapis.com/css?family=Audiowide|Geostar+Fill');
+ @import url('https://fonts.googleapis.com/css?family=Audiowide|Geostar+Fill|Kelly+Slab');
 /* Links */
 a,
 a:focus,
@@ -40,6 +42,16 @@ body {
 body {
   height: 100%; 
   background-color: #333;
+}
+
+h1 {
+  font-family: 'Geostar Fill', cursive;
+}
+
+h2 {
+  font-family: 'Geostar Fill', cursive;
+  font-family: 'Audiowide', cursive;
+  font-family: 'Kelly Slab', cursive;
 }
 
 #background {
@@ -241,8 +253,8 @@ ul li {
 
 .front {
 	overflow: hidden;
-	width: 250px; 
-	height: 330px;
+	width: 400px; 
+	height: 350px;
 	position: absolute;
 	z-index: 1;
 }
@@ -250,8 +262,8 @@ ul li {
 .back {
 	padding: 20px;
 	padding-top: 0px;
-	width: 250px;
-  height: 330px;
+	width: 400px;
+  height: 350px;
 	-webkit-transform: rotateY(-180deg);
   overflow: scroll; 
 }
