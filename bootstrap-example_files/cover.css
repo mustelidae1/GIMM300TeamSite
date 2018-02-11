@@ -38,8 +38,13 @@ html, body {
 /*	box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);*/
 }
 body {
+<<<<<<< HEAD
 	height: 100%;
 	/* [disabled]background-color: #333333; */
+=======
+  height: 100%;
+  background-color: #333;
+>>>>>>> Start on fixing card sizing.
 }
 
 h1 {
@@ -247,6 +252,7 @@ ul li {
   width: 100%;
   height: 100%;
 }
+<<<<<<< HEAD
 
 .parallax1 {
     /* The image used */
@@ -275,3 +281,5 @@ ul li {
     background-repeat: no-repeat;
     background-size: cover;
 }
+=======
+>>>>>>> Start on fixing card sizing.
