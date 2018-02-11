@@ -30,7 +30,7 @@ html,
 body {
 	display: -ms-flexbox;
 	display: inherit;
-	display: flex; 
+	display: flex;
 	-ms-flex-pack: 100%;
 	-webkit-box-pack: center;
 	justify-content: center;
@@ -39,7 +39,7 @@ body {
 /*	box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);*/
 }
 body {
-  height: 100%; 
+  height: 100%;
   background-color: #333;
 }
 
@@ -73,8 +73,9 @@ h2 {
 }
 
 .container {
-  width: 100%; 
-  margin: 0 auto; 
+
+  width: 100%;
+  margin: 0 auto;
 }
 
 .cover-container {
@@ -206,7 +207,7 @@ ul li {
     font-size: 1.2rem;
 }
 
- AboutPage classes 
+ AboutPage classes
 .about-card{
   overflow: hidden;
   max-width: 600px;
@@ -231,7 +232,7 @@ ul li {
 
 } */
 
-/* Flippy Card stuff */ 
+/* Flippy Card stuff */
 @import url(//fonts.googleapis.com/css?family=Lato:400,900);
 @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 
@@ -239,6 +240,8 @@ ul li {
     float: left;
 	  margin: 10px;
   	-webkit-perspective: 600px;
+    max-width: 500px;
+    height: 300px
 }
 
 ::-webkit-scrollbar {
@@ -257,13 +260,8 @@ ul li {
 
 .front {
 	overflow: hidden;
-<<<<<<< HEAD
-  width: 400px; 
-	height: 330px;
-=======
-	width: 400px; 
-	height: 350px;
->>>>>>> dfe1e857b3edc143371ebcc91b3a25db7ec337e2
+	max-width: 100%;
+	height: 100%;
 	position: absolute;
 	z-index: 1;
 }
@@ -271,14 +269,10 @@ ul li {
 .back {
 	padding: 20px;
 	padding-top: 0px;
-	width: 400px;
-<<<<<<< HEAD
-  height: 330px;
-=======
-  height: 350px;
->>>>>>> dfe1e857b3edc143371ebcc91b3a25db7ec337e2
+	width: 100%;
+    height: 100%;
 	-webkit-transform: rotateY(-180deg);
-  overflow: scroll; 
+  overflow: scroll;
 }
 
 .info-card:hover .back {
@@ -293,4 +287,3 @@ ul li {
   width: 100%;
   height: 100%;
 }
-	
