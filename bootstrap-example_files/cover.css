@@ -231,10 +231,10 @@ h2 {
 
 .parallax1 {
     /* The image used */
-    background-image:url(../images/jeremy-thomas-63102.jpg);
+    background-image:url(../images/alessio-lin-1.jpg);
 
 		/* Full height */
-    height: 25%;
+    height: 35%;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -245,10 +245,24 @@ h2 {
 
 .parallax2 {
     /* The image used */
-    background-image:url(../images/alessio-lin-183051.jpg);
+    background-image:url(../images/nasa50.jpg);
 
 		/* Full height */
-    height: 25%;
+    height: 35%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    /* The image used */
+    background-image:url(../images/alessio-lin.jpg);
+
+		/* Full height */
+    height: 35%;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
