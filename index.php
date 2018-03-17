@@ -1,16 +1,22 @@
-<!DOCTYPE html>
+<!DOCTYPE html, php>
 <!-- saved from url=(0050)https://getbootstrap.com/docs/4.0/examples/cover/# -->
 <html lang="en">
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
 <meta name="description" content="">
+	
 <meta name="author" content="">
+	
 <link rel="icon" href="images/donut3.j">
 <title>Interdemensionals Landing Page</title>
+	
 <!-- Bootstrap core CSS -->
 <link href="./bootstrap-example_files/bootstrap.min.css" rel="stylesheet">
+	
 <!-- Custom styles for this template -->
 <link href="./bootstrap-example_files/cover.css" rel="stylesheet">
 </head>
@@ -24,15 +30,7 @@
 <div class="cover-container d-flex h-1 p-3 mx-auto flex-column">
 
 
-<header class="align-content-stretch">
-  <div class="inner">
-    <h1 class="masthead-brand br">Interdimensional</h1>
-  </div>
-  <div class="center-text">
-    <nav class="nav nav-masthead justify-content-center"> <a class="nav-link active" href="#">Home</a> <a class="nav-link" href="AboutPage.html">Company Information</a> </nav>
-  </div>
-</header>
-
+<?php include("includes/header.php"); ?>
 
 <main role="main">
 
@@ -112,14 +110,7 @@
 </main>
 
 
-
-  <footer class="mastfoot mt-auto">
-    <div class="inner">
-      <!-- <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p> -->
-    </div>
-  </footer>
-
-
+<?php include("includes/footer.php"); ?>
 
 </div>
 <!-- Bootstrap core JavaScript

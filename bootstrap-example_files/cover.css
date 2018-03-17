@@ -5,20 +5,15 @@
  @import url('https://fonts.googleapis.com/css?family=Audiowide|Geostar+Fill');
  @import url('https://fonts.googleapis.com/css?family=Audiowide|Geostar+Fill|Kelly+Slab');
 /* Links */
-a,
-a:focus,
-a:hover {
-  color: #fff;
+a, a:focus, a:hover {
+	color: #fff;
 }
-
 /* Custom default button */
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #fff;
-  border: .05rem solid #fff;
+.btn-secondary, .btn-secondary:hover, .btn-secondary:focus {
+	color: #333;
+	text-shadow: none; /* Prevent inheritance from `body` */
+	background-color: #fff;
+	border: .05rem solid #fff;
 }
 
 /*
@@ -29,64 +24,55 @@ html, body {
 	display: -ms-flexbox;
 	display: inherit;
 	display: flex;
-	-ms-flex-pack: 100%;
+	-ms-flex-pack: 120%;
 	-webkit-box-pack: center;
 	justify-content: center;
 	color: #fff;
-	text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-	background-color: inherit;
-/*	box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);*/
+	text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);/*	box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);*/
 }
 body {
 	height: 100%;
-	/* [disabled]background-color: #333333; */
 }
 
 h1 {
-  font-family: 'Geostar Fill', cursive;
+	font-family: 'Geostar Fill', cursive;
 }
 
 h2 {
-  font-family: 'Geostar Fill', cursive;
-  font-family: 'Audiowide', cursive;
-  font-family: 'Kelly Slab', cursive;
+	font-family: 'Geostar Fill', cursive;
+	font-family: 'Audiowide', cursive;
+	font-family: 'Kelly Slab', cursive;
 }
 
 #background {
-    position: fixed;
+	position: fixed;
 	background-position: center;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background-repeat: no-repeat;
-    background-size: cover;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .container h1 {
-    color: white;
+	color: white;
 }
 
 .container {
-
-  width: 100%;
-  margin: 0 auto;
-}
-
-#aboutPage {
-	max-width: 100%;
-	text-align: center;
-	font-size: x-large;
+	width: 100%;
+	margin: 0 auto;
 }
 
 /*
  * Header
  */
+
 .masthead {
 	margin-left: 150px;
 	margin-right: 150px;
@@ -96,7 +82,7 @@ h2 {
 }
 
 .masthead-brand {
-  margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 .nav-masthead .nav-link {
@@ -110,91 +96,109 @@ h2 {
 	padding-bottom: 0.25px;
 }
 
-.nav-masthead .nav-link:hover,
-.nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, .25);
+.nav-masthead .nav-link:hover, .nav-masthead .nav-link:focus {
+	border-bottom-color: rgba(255, 255, 255, .25);
 }
 
 .nav-masthead .nav-link + .nav-link {
-  margin-left: 1rem;
+	margin-left: 1rem;
 }
 
 .nav-masthead .active {
-  color: #fff;
-  border-bottom-color: #fff;
+	color: #fff;
+	border-bottom-color: #fff;
 }
 
 @media (min-width: 48em) {
-  .masthead-brand {
+.masthead-brand {
 	float: center;
 	padding-bottom: 0.5rem;
 	padding-top: 0rem;
-  }
-  .nav-masthead {
+}
+	
+.nav-masthead {
 	float: center;
 	padding-bottom: 2rem;
 	padding-top: 1rem;
-  }
+}
+	
+.about-card-body .card-body .about-card-text {
+	min-width: 400px;
+}
+	
 }
 
 /*
  * Cover
  */
 .cover {
-  padding: 0 1.5rem;
+	padding: 0 1.5rem;
 }
+
 .cover .btn-lg {
-  padding: .75rem 1.25rem;
-  font-weight: 700;
+	padding: .75rem 1.25rem;
+	font-weight: 700;
 }
 
 /*
  * Footer
  */
+
 .mastfoot {
-  color: rgba(255, 255, 255, .5);
+	color: rgba(255, 255, 255, .5);
 }
 
- AboutPage classes
-.about-card{
-  overflow: hidden;
-  max-width: 600px;
-  height:auto;
-}
-.about-card-text {
-	width: auto;
-	font-size: 0.9rem;
-	word-wrap: break-word;
+/*
+  * AboutPage classes
+  */
+
+.aboutPage {
 	text-align: center;
+	background-color: #000000;
+}
+
+.about-card {
+	overflow: hidden;
+	height: auto;
+}
+
+.about-card-text {
+	text-align: center;
+	font-family: geo;
+	font-style: normal;
+	font-weight: 400;
+	fony-size: 20;
+	font-size: 24px;
 }
 
 .about-card-body {
-	background-color: rgba(0,0,0,0.71);
-	padding-top: 1rem;
-	padding-right: 0;
-	padding-left: 0;
-	padding-bottom: 1rem;
+	background-color: #000000;
+	min-width: 500px;
+	padding-top: 0px;
+	padding-right: auto;
+	padding-left: auto;
+	padding-bottom: 0px;
+	max-width: 100%;
 }
 
 /* Flippy Card stuff */
 @import url(//fonts.googleapis.com/css?family=Lato:400,900);
 @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
-
 .info-card {
-    float: left;
+	float: left;
 	margin: 10px;
-    -webkit-perspective: 600px;
-    max-width: 450px;
-    height: 300px
+	-webkit-perspective: 600px;
+	max-width: 450px;
+	height: 300px
 }
 
 ::-webkit-scrollbar {
-  background: transparent;
-  width: 0px;
+ background: transparent;
+ width: 0px;
 }
 
 .front, .back {
-  background: #333;
+	background: #333;
 	border-radius: 10px;
 	transition: -webkit-transform 1s;
 	-webkit-transform-style: preserve-3d;
@@ -214,9 +218,9 @@ h2 {
 	padding: 20px;
 	padding-top: 0px;
 	width: 100%;
-    height: 150%;
+	height: 150%;
 	-webkit-transform: rotateY(-180deg);
-  overflow: scroll;
+	overflow: scroll;
 }
 
 .info-card:hover .back {
@@ -228,48 +232,105 @@ h2 {
 }
 
 .card-image {
-  max-width: 100%;
-  max-height: 100%;
+	max-width: 100%;
+	max-height: 100%;
 }
 
-.parallax1 {
-    /* The image used */
-    background-image:url(../images/alessio-lin-1.jpg);
+/*
+ * For Motion Parallax
+ */
+/*
 
-		/* Full height */
-    height: 35%;
+old style
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.parallax1::after {
+	background-image: url(../images/alessio-lin-1.jpg);
+	height: 35%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.parallax2 {
-    /* The image used */
+.parallax2::after {
     background-image:url(../images/nasa50.jpg);
-
-		/* Full height */
     height: 35%;
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.parallax3 {
-    /* The image used */
+.parallax3::after {
     background-image:url(../images/alessio-lin.jpg);
-
-		/* Full height */
     height: 35%;
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+*/
+
+.wrapper {
+	/* The height needs to be set to a fixed value for the effect to work.
+   * 100vh is the full height of the viewport. */
+	height: 100vh;
+	/* The scaling of the images would add a horizontal scrollbar, so disable x overflow. */
+	overflow-x: hidden;
+	/* Enable scrolling on the page. */
+	overflow-y: scroll;
+	/* Set the perspective to 2px. This is essentailly the simulated distance from the viewport to transformed objects.*/
+	perspective: 2px;
+}
+
+.section {
+	/* Needed for children to be absolutely positioned relative to the parent. */
+	position: relative;
+	/* The height of the container. Must be set, but it doesn't really matter what the value is. */
+	height: 50vh;
+	/* For text formatting. */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-shadow: 0 0 5px #000;
+}
+
+/* The styling for the static div. */
+.static {
+	background-color: ;
+}
+
+.parallax::after {
+	/* Display and position the pseudo-element */
+	content: " ";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	/* Move the pseudo-element back away from the camera,
+   * then scale it back up to fill the viewport.
+   * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
+	transform: translateZ(-1px) scale(1.75);
+	/* Force the background image to fill the whole element. */
+	background-size: 100%;
+	/* Keep the image from overlapping sibling elements. */ 
+	z-index: -1;
+}
+
+/* Sets the actual background images. This part is crucial. */
+.bg1::after {
+	background-image: url(../images/alessio-lin-1.jpg);
+}
+.bg2::after {
+	background-image: url(../images/nasa50.jpg);
+}
+.bg3::after {
+	background-image: url(../images/alessio-lin.jpg);
+}
+.bg4::after {
+	background-image: url(../images/maxime-le-conte-des-floris.jpg);
+}
+.bg5::after {
+	background-image: url(../images/jeremy-thomas.jpg);
 }
