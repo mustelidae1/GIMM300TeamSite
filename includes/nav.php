@@ -18,10 +18,6 @@
  	    <a class="dropdown-item" href="#">Kyle Rennie</a>
  		<a class="dropdown-item" href="#">Olivia Thomas</a>
  	    <a class="dropdown-item" href="#">Chris Ross</a>  --> 
-
-		 <a class="nav-link" href="olivia.php">Olivia Thomas</a> 
-		 <a class="nav-link" href="kyle.php">Kyle Rennie</a> 
-		 <a class="nav-link" href="chris.php">Chris Ross</a> 
 		
 		
 

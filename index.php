@@ -37,6 +37,7 @@
 <!--	Card ROWS-->
 <div class="card-columns">
   <!-- Info Card with social icons -->
+  <a href="kyle.php"> 
   <div class="info-card">
     <div class="front">
       <br>
@@ -59,8 +60,10 @@
       </div>
     </div>
   </div>
+  </a> 
 
   <!-- Scrolling enabled for longer content -->
+  <a href="olivia.php"> 
   <div class="info-card">
     <div class="front">
       <br> 
@@ -82,8 +85,10 @@
       </div>
     </div>
   </div>
+  </a> 
 
   <!-- Scrolling enabled for longer content -->
+  <a href="chris.php"> 
   <div class="info-card">
     <div class="front">
       <br>
@@ -106,6 +111,7 @@
     </div>
   </div>
 </div>
+</a> 
 
 </main>
 
