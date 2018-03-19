@@ -108,6 +108,11 @@ h2 {
 	color: #fff;
 	border-bottom-color: #fff;
 }
+.back div h4 {
+	padding-top: 50%;
+	padding-bottom: 50%;
+}
+
 
 @media (min-width: 48em) {
 .masthead-brand {
