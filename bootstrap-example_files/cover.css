@@ -320,6 +320,7 @@ old style
 	transform: translateZ(-1px) scale(1.75);
 	/* Force the background image to fill the whole element. */
 	background-size: 100%;
+	background-position: center;
 	/* Keep the image from overlapping sibling elements. */
 	z-index: -1;
 }
